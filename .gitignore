@@ -1,8 +1,8 @@
 node_modules
-package-lock.json
 public/scss
 mockup-app.js
 seeders
 migrations
 Procfile
 heroku-deployment.txt
+example-markup

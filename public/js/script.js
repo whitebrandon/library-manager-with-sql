@@ -1,8 +1,7 @@
 /******************************************
-Treehouse Techdegree:
-FSJS project 8 - SQL Library Manager
+SQL Library Manager
 Name: Brandon White
-Date of Last Modification: 03/12/2019
+Date of Last Modification: 12/07/2019
 ******************************************/
 
 'strict';
@@ -10,6 +9,6 @@ Date of Last Modification: 03/12/2019
     document.addEventListener('DOMContentLoaded', () => {
         const inputs = [...document.getElementsByTagName('input')];
 
-        inputs[0].name !== "search" ? inputs[0].focus() : null;
+        inputs[0].name !== "search" && inputs[0].focus();
     })
 
